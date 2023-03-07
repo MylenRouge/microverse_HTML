@@ -24,11 +24,11 @@ li {
     margin: 5px;
 }
 
-li a{
+li a {
     padding: 6px 6px;
 }
 
-li a:hover{
+li a:hover {
     background-color: rgb(97, 97, 206);
 }
 
@@ -42,14 +42,14 @@ li a:hover{
     background-color: rgb(51, 47, 47);
 }
 
-h1{
+h1 {
     display: block;
     color: white;
     font-size: 3.4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-p{
+p {
     color: red;
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -59,4 +59,24 @@ p{
     text-decoration: none;
     color: white;
     font-size: 1.6rem;
+}
+
+#some-projects {
+    display: block;
+    text-align: center;
+    padding: 10rem 2 rem;
+    background-color: blueviolet;
+    margin: 0;
+}
+
+.projectsTitle {
+    max-width: 650px;
+    margin: 0 auto 6rem auto;
+}
+
+.project {
+    display: block;
+    text-align: center;
+    padding: 2rem 0.5rem;
+    height: calc(100% - 6.8rem);
 }
