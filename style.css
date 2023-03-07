@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+#navbar{
+    background-color: rgb(126, 5, 5);
+    padding: 12px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.bookmarks{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+}
