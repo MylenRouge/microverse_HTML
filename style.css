@@ -77,7 +77,7 @@ p {
     font-size: 4.2rem;
 }
 
-#project-container {
+.project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
@@ -91,4 +91,44 @@ p {
 
 .projects-control {
     border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
 }
+
+#big-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+    padding: 5px;
+}
+
+p.contact{
+    color: white;
+    font-size: 2rem;
+}
+
+.contact-details{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#small-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    border-top: 4px solid red;
+}
+
+#small-footer > p{
+    font-size: 1.5rem;
+    margin: 3rem;
+}
+
