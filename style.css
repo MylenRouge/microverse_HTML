@@ -61,19 +61,23 @@ p {
     font-size: 1.6rem;
 }
 
-#projects{
- text-align: center;
- padding: 10rem 2rem;
- background-color: lightblue;
+#projects {
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: lightblue;
 }
 
-.pheadings{
+.pheadings {
+    display: block;
     border-bottom: underline 3px solid orange;
     max-width: 640px;
     text-align: center;
+    margin: 0 auto 6rem auto;
+    padding: 0;
+    font-size: 4.2rem;
 }
 
-#project-container{
+#project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
@@ -85,6 +89,6 @@ p {
 
 }
 
-.projects-control{
+.projects-control {
     border: 2px solid black;
 }
